@@ -29,8 +29,7 @@ function About() {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300">
-              I am Leobardo Núñez <span className="text-blue-400 font-semibold">"Lenugo"</span>.
-              I'm a passionate Blockchain Fullstack Developer with expertise in both traditional web development and
+              I‘m  a skilled passionate fullstack developer with expertise in both traditional web development and
               blockchain technologies.
             </p>
             <p className="text-lg text-gray-300">

@@ -3,43 +3,7 @@
 import { motion } from 'framer-motion';
 import { Briefcase } from 'lucide-react';
 import ExperienceCard from './ExperienceCard';
-
-// Sample experience data
-const experiences = [
-  {
-    title: "Full Stack Developer",
-    company_name: "Tech Innovations",
-    date: "Jan 2022 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and Node.js",
-      "Implementing responsive design and ensuring cross-browser compatibility",
-      "Participating in code reviews and providing constructive feedback",
-      "Building RESTful APIs and integrating with third-party services"
-    ],
-  },
-  {
-    title: "Blockchain Developer",
-    company_name: "Web3 Solutions",
-    date: "May 2020 - Dec 2021",
-    points: [
-      "Developing smart contracts using Solidity for decentralized applications",
-      "Building frontend interfaces that interact with blockchain networks",
-      "Implementing secure transaction handling and wallet integration",
-      "Optimizing gas costs and ensuring contract security through testing"
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Digital Creations",
-    date: "Aug 2018 - Apr 2020",
-    points: [
-      "Creating responsive user interfaces with React and modern CSS frameworks",
-      "Collaborating with designers to implement pixel-perfect designs",
-      "Optimizing application performance and load times",
-      "Mentoring junior developers and leading frontend initiatives"
-    ],
-  },
-];
+import { experiences } from '../constants';
 
 function Experience() {
   return (
