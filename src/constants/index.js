@@ -5,36 +5,36 @@
  */
 export const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Tech Innovations",
-    date: "Jan 2022 - Present",
+    title: "Software Engineer II",
+    company_name: "Newtech S.R.L.",
+    date: "July 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and Node.js",
-      "Implementing responsive design and ensuring cross-browser compatibility",
-      "Participating in code reviews and providing constructive feedback",
-      "Building RESTful APIs and integrating with third-party services"
+      "Migrated several applications from the Verizon ecosystem using Micro-Frontend architecture with React",
+      "Increased speed by improving the search and filtering algorithms from the frontend",
+      "Built a map integrating one with multiple modern functionalities in an old version of Angular (Angular 5)",
+      "Led teams of developers by assigning tasks and contributing ideas for optimal app performance"
     ],
   },
   {
-    title: "Blockchain Developer",
-    company_name: "Web3 Solutions",
-    date: "May 2020 - Dec 2021",
+    title: "Software Engineer",
+    company_name: "Intellisys D. Corp.",
+    date: "April 2021 - July 2022",
     points: [
-      "Developing smart contracts using Solidity for decentralized applications",
-      "Building frontend interfaces that interact with blockchain networks",
-      "Implementing secure transaction handling and wallet integration",
-      "Optimizing gas costs and ensuring contract security through testing"
+      "Accelerated the COVID-19 vaccination registration process to +10M people (Dominican Republic citizens)",
+      "Worked across various teams as a fullstack developer utilizing React, Angular, Ionic, Golang, and Hyperledger Fabric",
+      "Developed internal systems using Python, Node.js and React, improving operational efficiency",
+      "Collaborated in cross-functional teams with different roles, adapting to project requirements and technologies"
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "Digital Creations",
-    date: "Aug 2018 - Apr 2020",
+    title: "VI & VR Developer",
+    company_name: "T-eco Group",
+    date: "April 2021 - November 2021",
     points: [
-      "Creating responsive user interfaces with React and modern CSS frameworks",
-      "Collaborating with designers to implement pixel-perfect designs",
-      "Optimizing application performance and load times",
-      "Mentoring junior developers and leading frontend initiatives"
+      "Developed immersive virtual reality experiences using Unity and C#",
+      "Created interactive 3D visualizations for architectural and educational projects",
+      "Optimized performance for VR applications to ensure smooth user experience",
+      "Collaborated with designers and stakeholders to translate concepts into functional VR environments"
     ],
   },
 ];
@@ -47,11 +47,11 @@ export const experiences = [
 export const skills = [
   {
     category: "Frontend",
-    technologies: ["React", "Next.js", "TypeScript", "HTML/CSS", "Tailwind CSS", "ThreeJS"],
+    technologies: ["React", "Next.js", "Angular", "Vue.js", "Nuxt"],
   },
   {
     category: "Backend",
-    technologies: ["Node.js", "Express", "Python", "RESTful APIs", "GraphQL", "AWS"],
+    technologies: ["Node.js", "FastAPI", "Golang", "Dotnet"],
   },
   {
     category: "Mobile",
@@ -59,15 +59,15 @@ export const skills = [
   },
   {
     category: "Blockchain",
-    technologies: ["Solidity", "Ethereum", "Foundry", "Web3.js", "Hardhat", "Truffle"],
+    technologies: ["Solidity", "Ethereum", "Foundry", "Web3.js", "Hardhat", "Hyperledger"],
   },
   {
     category: "Database",
-    technologies: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"],
+    technologies: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Sql", "Supabase"],
   },
   {
     category: "Other",
-    technologies: ["Git", "CI/CD", "Docker", "Unity", "ThreeJS", "AWS"],
+    technologies: ["AI Integration", "Git", "CI/CD", "Docker", "Unity", "ThreeJS", "AWS"],
   },
 ];
 
