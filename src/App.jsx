@@ -1,4 +1,4 @@
-import { Navbar, Hero, Experience, About, Skills, Projects, Contact } from './components'
+import { Navbar, Hero, Stars, Experience, About, Skills, Projects, Contact } from './components'
 
 function App() {
 
@@ -9,8 +9,11 @@ function App() {
       <About />
       <Skills />
       <Experience />
-      <Projects />
-      <Contact />
+      <div className="relative z-0">
+        <Projects />
+        <Contact />
+        <Stars />
+      </div>
     </main>
   )
 }

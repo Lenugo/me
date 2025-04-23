@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 function Contact() {
   return (
@@ -73,13 +73,6 @@ function Contact() {
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-6 w-6" />
-                </a>
-                <a
-                  href="#"
-                  className="p-3 bg-blue-500/20 hover:bg-blue-500/30 rounded-full text-blue-400 hover:text-blue-300 transition-all"
-                  aria-label="Twitter"
-                >
-                  <Twitter className="h-6 w-6" />
                 </a>
               </div>
             </div>
