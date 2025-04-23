@@ -22,7 +22,7 @@ function Skills() {
     {
       category: "Blockchain",
       icon: <Layers className="h-6 w-6" />,
-      technologies: ["Solidity", "Ethereum", "Smart Contracts", "Web3.js", "Hardhat", "Truffle"],
+      technologies: ["Solidity", "Ethereum", "Foundry", "Web3.js", "Hardhat", "Truffle"],
     },
     {
       category: "Database",

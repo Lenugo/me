@@ -1,4 +1,4 @@
-import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { User, Code, Cpu } from "lucide-react";
 
@@ -29,7 +29,7 @@ function About() {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300">
-              I'm Leobardo Núñez, known professionally as <span className="text-blue-400 font-semibold">Lenugo</span>.
+              I am Leobardo Núñez <span className="text-blue-400 font-semibold">"Lenugo"</span>.
               I'm a passionate Blockchain Fullstack Developer with expertise in both traditional web development and
               blockchain technologies.
             </p>

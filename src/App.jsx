@@ -1,17 +1,16 @@
-import { WaveBackground, Hero, About, Skills, Projects, Contact } from './components'
+import { Navbar, Hero, Experience, About, Skills, Projects, Contact } from './components'
 
 function App() {
 
   return (
     <main className="min-h-screen bg-[#050b18] text-white relative">
-      <WaveBackground />
-      <div className="relative z-10">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
     </main>
   )
 }

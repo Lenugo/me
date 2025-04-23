@@ -4,7 +4,6 @@ import { Canvas, useFrame, extend } from "@react-three/fiber";
 import { OrbitControls, Sparkles } from "@react-three/drei";
 import { EffectComposer, Bloom } from "@react-three/postprocessing";
 
-// Custom shader for the fire effect
 class FireMaterial extends THREE.ShaderMaterial {
   constructor () {
     super({
@@ -277,7 +276,7 @@ function FireScene() {
 function FireBackground({ className = "" }) {
   return (
     <div className={`absolute inset-0 z-0 ${className}`}>
-      <Canvas camera={{ position: [0, 1, 4], fov: 45 }}>
+      <Canvas camera={{ position: [0, 1, 5], fov: 45 }}>
         <FireScene />
       </Canvas>
     </div>

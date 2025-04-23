@@ -1,4 +1,4 @@
-import React from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Download, Code, Github, Linkedin } from "lucide-react";
 
@@ -21,12 +21,11 @@ export default function Hero() {
             >
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-xl shadow-blue-500/20">
                 <img
-                  src="https://i.scdn.co/image/ab6761610000e5eb9e528993a2820267b97f6aae"
+                  src="/lenugo-ghibli.jpeg"
                   alt="Leobardo Núñez"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.target.onerror = null;
-                    // e.target.src = "https://via.placeholder.com/150?text=LN";
                   }}
                 />
               </div>
@@ -67,10 +66,10 @@ export default function Hero() {
             transition={{ delay: 0.7 }}
             className="flex justify-center gap-4 pt-2"
           >
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-100 transition-colors">
+            <a href="https://github.com/Lenugo" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-100 transition-colors">
               <Github className="h-6 w-6" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-100 transition-colors">
+            <a href="https://linkedin.com/in/lenugo" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-100 transition-colors">
               <Linkedin className="h-6 w-6" />
             </a>
           </motion.div>
