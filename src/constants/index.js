@@ -87,12 +87,12 @@ export const web2Projects = [
     githubLink: "#",
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team features.",
-    technologies: ["Next.js", "Firebase", "Tailwind CSS", "React Query"],
-    image: "/placeholder.svg?height=300&width=500",
-    liveLink: "#",
-    githubLink: "#",
+    title: "Open Web3 Hub",
+    description: "Open Web3 Hub is a platform designed to help users discover and explore open-source Web3 and AI projects.",
+    technologies: ["Next.js", "Github API", "Tailwind CSS", "Community"],
+    image: "src/assets/images/open-web3-hub-preview.png",
+    liveLink: "https://openweb3hub.vercel.app/",
+    githubLink: "https://github.com/Lenugo/open-web3-hub",
   },
   {
     title: "Real Estate Listing Platform",
@@ -113,7 +113,7 @@ export const web3Projects = [
   {
     title: "Smart Vending Machine",
     description: "A blockchain-powered vending machine application that allows users to purchase and consume virtual products using Ethereum.",
-    technologies: ["React", "Solidity", "Ethereum", "IPFS", "Web3.js"],
+    technologies: ["React", "Solidity", "Remix", "Ethereum", "IPFS", "Web3.js"],
     image: "src/assets/images/vending-machine-preview.png",
     liveLink: "https://lenugo.github.io/vending-machine-dapp/",
     githubLink: "https://github.com/Lenugo/vending-machine-dapp",

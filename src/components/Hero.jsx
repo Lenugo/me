@@ -44,7 +44,7 @@ export default function Hero() {
               Hello, I'm <span className="font-bold text-blue-300">Leobardo Núñez</span> 👋
             </h2>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-white">
-              <span className="block">Software Full-stack</span>
+              <span className="block">Software Developer</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
                 Blockchain Developer
               </span>
