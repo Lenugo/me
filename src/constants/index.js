@@ -95,12 +95,12 @@ export const web2Projects = [
     githubLink: "https://github.com/Lenugo/open-web3-hub",
   },
   {
-    title: "Real Estate Listing Platform",
-    description: "A platform for listing and searching real estate properties with advanced filtering options.",
-    technologies: ["React", "Node.js", "PostgreSQL", "AWS S3", "Google Maps API"],
-    image: "/placeholder.svg?height=300&width=500",
-    liveLink: "#",
-    githubLink: "#",
+    title: "Tips Hub",
+    description: "A platform to write and read other people's advices.",
+    technologies: ["Vue", "Node.js", "Mongo", "Render", "Docker Image"],
+    image: "src/assets/images/tips-hub-preview.png",
+    liveLink: "https://lenugo.github.io/tips-hub/",
+    githubLink: "https://github.com/Lenugo/tips-hub",
   },
 ];
 
