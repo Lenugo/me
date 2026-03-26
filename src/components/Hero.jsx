@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Download, Code, Github, Linkedin } from "lucide-react";
+import avatarImg from "/lenugo-ghibli.jpeg";
 
 export default function Hero() {
   return (
@@ -21,7 +22,7 @@ export default function Hero() {
             >
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-xl shadow-blue-500/20">
                 <img
-                  src="/lenugo-ghibli.jpeg"
+                  src={avatarImg}
                   alt="Leobardo Núñez"
                   className="w-full h-full object-cover"
                   onError={(e) => {
