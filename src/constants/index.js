@@ -1,7 +1,7 @@
-import { projectImages } from "./images";
+import { projectImages } from "./assets";
 
 const { openWeb3Hub, tipsHub, vendingMachine } = projectImages;
- /* Experience type
+ /* Experiences
  * @type {Array}
  * @description Array of experience objects with title, company_name, date, and points properties.
  */
@@ -11,17 +11,15 @@ export const experiences = [
     company_name: "Newtech S.R.L.",
     date: "July 2022 - Present",
     points: [
-      "NT-Suite: A monolithic MVC designed to manage internal processes and employee information within the company.",
-      "Focused on backend development using Go, designing and implementing scalable services to support business logic and data operations.",
-      "Built and integrated frontend modules using React, creating intuitive, responsive interfaces aligned with internal design standards.",
-      "Contributed to authentication workflows, permissions management, and data models for HR-related features.",
-      "Proposed and led a comprehensive backend refactor implementing Vertical Slicing + Hexagonal Architecture, improving code maintainability, testability, and enabling better separation of concerns across business domains.",
-      "S360: Contributed as a core developer in Verizon's enterprise-scale migration to a modern micro-frontend architecture, helping build performant, modular applications used by thousands of users.",
-      "Developed micro-frontend modules in React and GraphQL to modernize legacy architecture and decouple business domains helped by Module Federation.",
-      "Integrated remote components using Webpack Module Federation, enabling scalable deployments and independent team delivery.",
-      "Built and maintained reusable UI components aligned with Verizon's Design System, improving consistency and accessibility.",
-      "Applied advanced state management strategies using Zustand and custom hooks to enhance performance and developer experience.",
-      "Collaborated across teams (design, QA, backend) to deliver production-ready features with strong attention to detail and scalability."
+      "Developed backend services using Go, designing scalable APIs and microservices architecture.",
+      "Configured and integrated MinIO for image and asset storage, managing uploads and serving content through a restricted VPN environment.",
+      "Used Figma to create designs and prototypes, collaborating with the design and UX team to ensure implementation aligned with visual requirements.",
+      "Built frontend modules with React, creating responsive and intuitive user interfaces.",
+      "Implemented authentication and authorization systems with role-based permissions.",
+      "Led backend refactoring using Vertical Slicing and Hexagonal Architecture for improved maintainability.",
+      "Developed micro-frontend applications using React and GraphQL with Module Federation.",
+      "Created reusable UI components aligned with enterprise Design Systems.",
+      "Collaborated in cross-functional teams to deliver production-ready features."
     ],
   },
   {
