@@ -1,5 +1,7 @@
-/**
- * experiences
+import { projectImages } from "./images";
+
+const { openWeb3Hub, tipsHub, vendingMachine } = projectImages;
+ /* Experience type
  * @type {Array}
  * @description Array of experience objects with title, company_name, date, and points properties.
  */
@@ -93,7 +95,7 @@ export const web2Projects = [
     title: "Open Web3 Hub",
     description: "Open Web3 Hub is a platform designed to help users discover and explore open-source Web3 and AI projects.",
     technologies: ["Next.js", "Github API", "Tailwind CSS", "Community"],
-    image: "/open-web3-hub-preview.png",
+    image: openWeb3Hub,
     liveLink: "https://openweb3hub.vercel.app/",
     githubLink: "https://github.com/Lenugo/open-web3-hub",
   },
@@ -101,7 +103,7 @@ export const web2Projects = [
     title: "Tips Hub",
     description: "A platform to write and read other people's advices. Users can post tips, browse advice from the community, and save their favorite ones for later.",
     technologies: ["Vue", "Node.js", "Mongo", "Render", "Docker Image"],
-    image: "/tips-hub-preview.png",
+    image: tipsHub,
     liveLink: "https://lenugo.github.io/tips-hub/",
     githubLink: "https://github.com/Lenugo/tips-hub",
   },
@@ -117,7 +119,7 @@ export const web3Projects = [
     title: "Smart Vending Machine",
     description: "A blockchain-powered vending machine application that allows users to purchase and consume virtual products using Ethereum.",
     technologies: ["React", "Solidity", "Remix", "Ethereum", "IPFS", "Web3.js"],
-    image: "/vending-machine-preview.png",
+    image: vendingMachine,
     liveLink: "https://lenugo.github.io/vending-machine-dapp/",
     githubLink: "https://github.com/Lenugo/vending-machine-dapp",
   },
