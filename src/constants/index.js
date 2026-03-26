@@ -1,6 +1,7 @@
 import { projectImages } from "./images";
 
 const { openWeb3Hub, tipsHub, vendingMachine } = projectImages;
+ /* Experience type
  * @type {Array}
  * @description Array of experience objects with title, company_name, date, and points properties.
  */
