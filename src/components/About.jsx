@@ -29,12 +29,11 @@ function About() {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300">
-              I‘m  a skilled passionate fullstack developer with expertise in both traditional web development and
-              blockchain technologies.
+              I am a passionate fullstack developer with experience integrating AI technologies into modern web applications.
             </p>
             <p className="text-lg text-gray-300">
-              With a strong foundation in fullstack development and a specialization in blockchain, I bridge the gap
-              between Web2 and Web3, creating innovative solutions that leverage the best of both worlds.
+              With a strong foundation in fullstack development and hands-on experience building AI-powered features, 
+              I create innovative solutions that leverage modern AI technologies alongside best development practices.
             </p>
             <p className="text-lg text-gray-300">
               My passion for technology is matched only by my commitment to building secure, scalable, and user-friendly
@@ -67,9 +66,9 @@ function About() {
                   <Cpu className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-white">Blockchain Exploration</h4>
+                  <h4 className="font-semibold text-white">AI Integration</h4>
                   <p className="text-gray-300">
-                    Dove into blockchain technology, specializing in Solidity and smart contract development
+                    Built intelligent applications with modern AI technologies and best practices
                   </p>
                 </div>
               </li>

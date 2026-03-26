@@ -46,7 +46,7 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-white">
               <span className="block">Software Developer</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                Blockchain Developer
+                Senior Fullstack Developer with AI Integration
               </span>
             </h1>
           </motion.div>
@@ -57,7 +57,7 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
             className="text-lg text-gray-300 max-w-2xl mx-auto"
           >
-            I build modern web applications and blockchain solutions that bridge the gap between traditional development and decentralized technologies.
+            I build modern web applications with AI integration, creating intelligent solutions that leverage cutting-edge technology.
           </motion.p>
 
           <motion.div

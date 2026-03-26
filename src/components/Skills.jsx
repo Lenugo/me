@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { Code, Database, Globe, Layers, Server, Smartphone, Cpu } from "lucide-react";
+import { Code, Database, Globe, Server, Smartphone, Cpu } from "lucide-react";
 import { skills } from "../constants";
 
 function Skills() {
@@ -13,8 +13,6 @@ function Skills() {
         return <Server className="size-6" />;
       case "Mobile":
         return <Smartphone className="size-6" />;
-      case "Blockchain":
-        return <Layers className="size-6" />;
       case "Database":
         return <Database className="size-6" />;
       case "Other":
@@ -41,9 +39,13 @@ function Skills() {
           <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto"></div>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {skills.map((skill, index) => {
-            // const icon = getIconForCategory(skill.category);
+            const isOdd = skills.length % 2 !== 0;
+            const isLastRowSingle = isOdd && index >= Math.ceil(skills.length / 2);
+            const cardClass = isLastRowSingle 
+              ? "lg:w-[calc(33.333%-16px)] lg:ml-12" 
+              : "lg:w-[calc(33.333%-16px)]";
             return (
               <motion.div
                 key={skill.category}
@@ -51,7 +53,7 @@ function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-gradient-to-br from-blue-900/40 to-cyan-900/40 p-6 rounded-lg border border-blue-500/30 hover:border-blue-400 transition-all shadow-lg hover:shadow-blue-500/10 backdrop-blur-sm"
+                className={`bg-gradient-to-br from-blue-900/40 to-cyan-900/40 p-6 rounded-lg border border-blue-500/30 hover:border-blue-400 transition-all shadow-lg hover:shadow-blue-500/10 backdrop-blur-sm w-full md:w-[calc(50%-12px)] ${cardClass}`}
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 bg-blue-500/20 rounded-lg text-blue-400">{getIconForCategory(skill.category)}</div>

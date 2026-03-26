@@ -9,8 +9,9 @@ export default function ProjectCard({ project, index }) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
       viewport={{ once: true }}
+      className="h-full"
     >
-      <div className="overflow-hidden bg-gradient-to-br from-blue-900/40 to-cyan-900/40 border border-blue-500/30 hover:border-blue-400 transition-all shadow-lg hover:shadow-blue-500/10 backdrop-blur-sm rounded-lg">
+      <div className="overflow-hidden bg-gradient-to-br from-blue-900/40 to-cyan-900/40 border border-blue-500/30 hover:border-blue-400 transition-all shadow-lg hover:shadow-blue-500/10 backdrop-blur-sm rounded-lg h-full flex flex-col">
         <div className="relative h-48 overflow-hidden">
           <img
             src={project.image || "/placeholder.svg"}
@@ -21,12 +22,12 @@ export default function ProjectCard({ project, index }) {
             className="w-full h-full object-cover transition-transform hover:scale-105"
           />
         </div>
-        <div className="p-6">
+        <div className="p-6 flex-1 flex flex-col">
           <div className="mb-4">
             <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
             <p className="text-gray-300">{project.description}</p>
           </div>
-          <div className="flex flex-wrap gap-2 mt-2 mb-6">
+          <div className="flex flex-wrap gap-2 mt-auto mb-6">
             {project.technologies.map((tech) => (
               <span
                 key={tech}

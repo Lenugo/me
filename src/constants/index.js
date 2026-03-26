@@ -9,10 +9,17 @@ export const experiences = [
     company_name: "Newtech S.R.L.",
     date: "July 2022 - Present",
     points: [
-      "Migrated several applications from the Verizon ecosystem using Micro-Frontend architecture with React",
-      "Increased speed by improving the search and filtering algorithms from the frontend",
-      "Built a map integrating one with multiple modern functionalities in an old version of Angular (Angular 5)",
-      "Led teams of developers by assigning tasks and contributing ideas for optimal app performance"
+      "NT-Suite: A monolithic MVC designed to manage internal processes and employee information within the company.",
+      "Focused on backend development using Go, designing and implementing scalable services to support business logic and data operations.",
+      "Built and integrated frontend modules using React, creating intuitive, responsive interfaces aligned with internal design standards.",
+      "Contributed to authentication workflows, permissions management, and data models for HR-related features.",
+      "Proposed and led a comprehensive backend refactor implementing Vertical Slicing + Hexagonal Architecture, improving code maintainability, testability, and enabling better separation of concerns across business domains.",
+      "S360: Contributed as a core developer in Verizon's enterprise-scale migration to a modern micro-frontend architecture, helping build performant, modular applications used by thousands of users.",
+      "Developed micro-frontend modules in React and GraphQL to modernize legacy architecture and decouple business domains helped by Module Federation.",
+      "Integrated remote components using Webpack Module Federation, enabling scalable deployments and independent team delivery.",
+      "Built and maintained reusable UI components aligned with Verizon's Design System, improving consistency and accessibility.",
+      "Applied advanced state management strategies using Zustand and custom hooks to enhance performance and developer experience.",
+      "Collaborated across teams (design, QA, backend) to deliver production-ready features with strong attention to detail and scalability."
     ],
   },
   {
@@ -47,7 +54,7 @@ export const experiences = [
 export const skills = [
   {
     category: "Frontend",
-    technologies: ["React", "Next.js", "Angular", "Vue.js", "Nuxt"],
+    technologies: ["React", "Next.js", "Angular", "Vue.js", "Svelte"],
   },
   {
     category: "Backend",
@@ -58,16 +65,12 @@ export const skills = [
     technologies: ["React Native", "Expo", "Mobile UI/UX", "App Deployment"],
   },
   {
-    category: "Blockchain",
-    technologies: ["Solidity", "Ethereum", "Foundry", "Web3.js", "Hardhat", "Hyperledger"],
-  },
-  {
     category: "Database",
     technologies: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Sql", "Supabase"],
   },
   {
     category: "Other",
-    technologies: ["AI Integration", "Git", "CI/CD", "Docker", "Unity", "ThreeJS", "AWS"],
+    technologies: ["Git", "CI/CD", "Docker", "Unity", "ThreeJS", "AWS"],
   },
 ];
 
@@ -77,15 +80,15 @@ export const skills = [
  * @description Array of web2 project objects with title, description, technologies, image, liveLink, and githubLink properties.
  */
 export const web2Projects = [
-  {
-    title: "E-commerce Platform",
-    description:
-      "A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-    image: "/placeholder.svg?height=300&width=500",
-    liveLink: "#",
-    githubLink: "#",
-  },
+  // {
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.",
+  //   technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+  //   image: "/placeholder.svg?height=300&width=500",
+  //   liveLink: "#",
+  //   githubLink: "#",
+  // },
   {
     title: "Open Web3 Hub",
     description: "Open Web3 Hub is a platform designed to help users discover and explore open-source Web3 and AI projects.",
@@ -96,7 +99,7 @@ export const web2Projects = [
   },
   {
     title: "Tips Hub",
-    description: "A platform to write and read other people's advices.",
+    description: "A platform to write and read other people's advices. Users can post tips, browse advice from the community, and save their favorite ones for later.",
     technologies: ["Vue", "Node.js", "Mongo", "Render", "Docker Image"],
     image: "src/assets/images/tips-hub-preview.png",
     liveLink: "https://lenugo.github.io/tips-hub/",
