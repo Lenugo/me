@@ -1,7 +1,7 @@
-import { projectImages } from "./images";
+import { projectImages } from "./assets";
 
 const { openWeb3Hub, tipsHub, vendingMachine } = projectImages;
- /* Experience type
+ /* Experiences
  * @type {Array}
  * @description Array of experience objects with title, company_name, date, and points properties.
  */

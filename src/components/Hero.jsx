@@ -1,9 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Download, Code, Github, Linkedin } from "lucide-react";
-import avatarImg from "/images/lenugo-ghibli.jpeg";
+import { projectFiles, projectImages } from "../constants/assets";
 
 export default function Hero() {
+  const { avatarImg } = projectImages;
+  const { cvFile } = projectFiles;
+
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="z-10 text-center px-4 relative max-w-5xl mx-auto">
@@ -90,7 +93,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/docs/LeobardoNunez-Resume.pdf"
+            href={cvFile}
             download
             className="px-8 py-3 bg-transparent border border-blue-500 rounded-full text-blue-400 font-medium hover:bg-blue-500/10 transition-all flex items-center gap-2"
           >
