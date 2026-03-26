@@ -12,6 +12,8 @@ export const experiences = [
     date: "July 2022 - Present",
     points: [
       "Developed backend services using Go, designing scalable APIs and microservices architecture.",
+      "Configured and integrated MinIO for image and asset storage, managing uploads and serving content through a restricted VPN environment.",
+      "Used Figma to create designs and prototypes, collaborating with the design and UX team to ensure implementation aligned with visual requirements.",
       "Built frontend modules with React, creating responsive and intuitive user interfaces.",
       "Implemented authentication and authorization systems with role-based permissions.",
       "Led backend refactoring using Vertical Slicing and Hexagonal Architecture for improved maintainability.",
