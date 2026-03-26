@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Download, Code, Github, Linkedin } from "lucide-react";
-import avatarImg from "/lenugo-ghibli.jpeg";
+import avatarImg from "/images/lenugo-ghibli.jpeg";
 
 export default function Hero() {
   return (
@@ -90,7 +90,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/leobardo-nunez-cv.pdf"
+            href="/docs/LeobardoNunez-Resume.pdf"
             download
             className="px-8 py-3 bg-transparent border border-blue-500 rounded-full text-blue-400 font-medium hover:bg-blue-500/10 transition-all flex items-center gap-2"
           >
